@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<!--  Phonegap 
+Plantillas y Comentarios: Cabecera(Header), Contenido(Content) y Pie de Página(Footer)
+By Exevenezia  *  http://exevenezia.blogspot.com.ar/  -->
+        <!--Metas -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <!-- Stylesheet-->
+        <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+        <link rel="stylesheet" href="css/index.css" type="text/css"  />
+         <!-- Archivos .js -->
+        <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js"></script>
+        <!-- Titulo -->
+        <title>Ejemplo 1</title>
+    </head>
+    <!--*********************** Fin Head************************** -->
+    <body>
+        <!--  Pagina nueva y se identifico con un ID="" -->
+        <div data-role="page" id="index" data-title="index">
+            <!--El data-role="header" hace funcionar el header y con el data-position="fixed" lo deja fijo -->
+            <header data-role="header" data-position="fixed">
+                <h1>Ejemplo 1</h1>
+            </header>
+            <!-- Contenido  -->
+            <div data-role="content" class="ui-content">
+                <p>Para poner una cabecera como la que tenemos arriba se hace con un data-role="header"</p>
+                <p>Para poner un Pie de Pagina como la que tenemos abajo se hace con un data-role="footer"</p>
+            </div>
+            <!--El data-role="footer" hace funcionar el Pie de Pagina y con el data-position="fixed" lo deja fijo -->
+            <footer data-role="footer" class="ui-bar" data-position="fixed">
+            <h4>Copyright &copy; 2014</h4>
+            </footer> 
+        </div>  
+    </body>
+             
+</html>
